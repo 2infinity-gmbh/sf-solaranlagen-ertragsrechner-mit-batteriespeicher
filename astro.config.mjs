@@ -3,7 +3,7 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'https://solaranlagen-ertragsrechner-mit-batteriespeicher.de',
+  site: 'REPLACE_SITE_URL',
   integrations: [sitemap()],
   vite: { plugins: [tailwindcss()] },
 });
